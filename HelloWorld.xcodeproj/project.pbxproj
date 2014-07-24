@@ -19,6 +19,8 @@
 		2DC576841981049D00A82496 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DC5766C1981049D00A82496 /* UIKit.framework */; };
 		2DC5768C1981049D00A82496 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2DC5768A1981049D00A82496 /* InfoPlist.strings */; };
 		2DC5768E1981049D00A82496 /* HelloWorldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DC5768D1981049D00A82496 /* HelloWorldTests.m */; };
+		2DC5769A1981063000A82496 /* HelloWorldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DC576981981063000A82496 /* HelloWorldViewController.m */; };
+		2DC5769B1981063000A82496 /* HelloWorldViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2DC576991981063000A82496 /* HelloWorldViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		2DC576891981049D00A82496 /* HelloWorldTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloWorldTests-Info.plist"; sourceTree = "<group>"; };
 		2DC5768B1981049D00A82496 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2DC5768D1981049D00A82496 /* HelloWorldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldTests.m; sourceTree = "<group>"; };
+		2DC576971981063000A82496 /* HelloWorldViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloWorldViewController.h; sourceTree = "<group>"; };
+		2DC576981981063000A82496 /* HelloWorldViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelloWorldViewController.m; sourceTree = "<group>"; };
+		2DC576991981063000A82496 /* HelloWorldViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HelloWorldViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +116,9 @@
 				2DC576781981049D00A82496 /* HelloWorldAppDelegate.m */,
 				2DC5767A1981049D00A82496 /* Images.xcassets */,
 				2DC5766F1981049D00A82496 /* Supporting Files */,
+				2DC576971981063000A82496 /* HelloWorldViewController.h */,
+				2DC576981981063000A82496 /* HelloWorldViewController.m */,
+				2DC576991981063000A82496 /* HelloWorldViewController.xib */,
 			);
 			path = HelloWorld;
 			sourceTree = "<group>";
@@ -222,6 +230,7 @@
 			files = (
 				2DC576731981049D00A82496 /* InfoPlist.strings in Resources */,
 				2DC5767B1981049D00A82496 /* Images.xcassets in Resources */,
+				2DC5769B1981063000A82496 /* HelloWorldViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2DC576791981049D00A82496 /* HelloWorldAppDelegate.m in Sources */,
+				2DC5769A1981063000A82496 /* HelloWorldViewController.m in Sources */,
 				2DC576751981049D00A82496 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
